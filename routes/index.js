@@ -8,4 +8,10 @@ router.get('/hello',(req,res) => {
   })
 })
 
+router.get('/test',(req,res) => {
+  res.send({
+    "data" : "test"
+  })
+})
+
 module.exports = router;
